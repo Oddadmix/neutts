@@ -100,7 +100,7 @@ class NeuTTS:
         # Load phonemizer + models
         print("Loading phonemizer...")
         self.phonemizer = EspeakBackend(
-            language="en-us", preserve_punctuation=True, with_stress=True
+            language="ar", preserve_punctuation=True, with_stress=True
         )
 
         self._load_backbone(backbone_repo, backbone_device)
